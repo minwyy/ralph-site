@@ -1,0 +1,184 @@
+{
+    "basics": {
+      "name": "Minwei Yao",
+      "label": "Software Engineer",
+      "picture": "https://www.dropbox.com/s/mheep2ghj3p80pk/_DSC1575.JPG?dl=0",
+      "email": "minwei.yao42@gmail.com",
+      "mobile": "0433482745",
+      "website": "https://minwei.surge.sh/",
+      "summary": "Driven, independent Software Engineer with strong problem-solving abilities.",
+      "location": {
+        "city": "Sydney",
+        "countryCode": "Au",
+        "region": "NSW"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "mattthevoid",
+          "url": "https://twitter.com/mattthevoid"
+        },
+        {
+          "network": "Github",
+          "username": "minwyy",
+          "url": "https://github.com/minwyy"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "Minwei Yao",
+          "url": "https://www.linkedin.com/in/minwei-yao-6b23bb30/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "University of Technology Sydney",
+        "position": "Research Assistant",
+        "website": "https://www.uts.edu.au/",
+        "startDate": "2019-12-01",
+        "summary": [
+            "Carried out 3-year industry-academic collaboration project successfully as main contributor",
+            "Took responsibility for training 10+ new PhD students "
+        ]
+      },
+      {
+        "company": "University of Technology Sydney",
+        "position": "Doctoral Researcher",
+        "website": "https://www.uts.edu.au/",
+        "startDate": "2014-02-01",
+        "endDate": "2019-11-01",
+        "summary": [
+            "Collaborated with internal and external stakeholders to meet projects objectives on schedule",
+            "Developed innovative methodologies to address challenges with 20% improvement of efficiency",
+            "Delivered research outcomes via 7 conference presentation and 20 academic paper publish"
+        ]
+      },
+      {
+        "company": "State Water Corporation (now WaterNSW)",
+        "position": "Engineer Intern",
+        "startDate": "2012-3-01",
+        "endDate": "2013-10-01",
+        "summary": [
+          "Performed life cycle analysis on water treatment plant"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of New South Wales",
+        "area": "Information Technology",
+        "studyType": "Master",
+        "startDate": "2020-09-01",
+        "endDate": "2021-10-01",
+        "awards": []
+      },
+      {
+        "institution": "University of Technology Sydney",
+        "area": "Civil Engineering",
+        "studyType": "PhD",
+        "startDate": "2015-02-01",
+        "endDate": "2019-11-01",
+        "awards": [
+          "2019 FEIT PhD Post-Thesis Publication Award",
+          "MSA Travel Award",
+          "FEIT HDR Publication Award"
+        ]
+      },
+      {
+        "institution": "University of Technology Sydney",
+        "area": "Environmental Engineering",
+        "studyType": "BSc",
+        "startDate": "2008-03-02",
+        "endDate": "2012-11-03",
+        "awards": [
+          "FEIT Dean's list",
+          "Honours degree"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Software Development",
+        "level": "Junior",
+        "color": "darkcyan",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "ReactJS",
+          "Java",
+          "jQuery",
+          "Python",
+          "GatsbyJS"
+        ]
+      },
+      {
+        "name": "System Operations",
+        "color": "#2B6CB0",
+        "level": "Junior",
+        "keywords": [
+          "Git",
+          "Windows",
+          "Mac"
+        ]
+      },
+      {
+        "name": "Databases and APIs",
+        "color": "grey",
+        "level": "Junior",
+        "keywords": [
+          "SQLite",
+          "GraphQL"
+        ]
+      },
+      {
+        "name": "Other skills",
+        "color": "darkcyan",
+        "level": "Junior",
+        "keywords": [
+          "Problem solving",
+          "Public speaking",
+          "Team work",
+          "Initiative",
+          "Analytical"
+        ]
+      }
+    ],
+    "skillsummary": [
+      "Developed dynamic websites using ReactJS + Redux, utilizing Firebase as database with authentication; websites deployed on Firebase",
+      "Utilized React Developer Tools and Redux Devtools for debugging",
+      "Designed and created static personal sites with ReactJS + GatsbyJS + GraphQL, deployed on surge",
+      "Created personal cv in pdf format from json resume with reactJS and ReactPDF library, integrated in my personal site",
+      "Using Git and GitHub for version control of my study and personal projects"
+    ],
+  
+    "languages": [
+      {
+        "language": "Mandarin",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Full professional proficiency"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Technical",
+        "keywords": ["Programming", "Custom PC building", "Gaming"]
+      },
+      {
+        "name": "Personal",
+        "keywords": ["Basketball", "Reading", "Hiking", "Photography"]
+      }
+    ],
+    "referees": [
+      {"name": "Prof. Ho Kyong Shon",
+        "title": "Professor in University of Technology Sydney",
+        "contact": "0447332707"
+      }
+    ],
+    "meta": {
+      "theme": "elegant"
+    }
+  }
