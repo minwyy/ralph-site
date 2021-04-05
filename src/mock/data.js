@@ -2,83 +2,50 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Minwei | Web Developer', // e.g: 'Name | Developer'
+  title: 'Ralph | membrane scientist', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
+  img: 'ralph photo',
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Ralph',
+  subtitle: ", a membrane scientist and environmental chemist",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "I'm a self-motivated software engineer with a background requiring strong analysis and problem solving skills.",
-  paragraphTwo: 'Satisfying  clients with reliable and creative solutions is what I love.',
-  paragraphThree: "I'm eager to update my knowledge and skills to become a full-stack developer in the next few years.",
+  aboutMe: 
+    "Ralph Rolly Gonzales is originally from the Philippines. He received his B.S. in Chemistry from the University of the Philippines (UP) Diliman in 2011. In 2016, he completed his Masters in Environmental Engineering at Daegu University, South Korea, with funding support from the Korean Government Scholarship Program. Ralph then proceeded to complete his Ph.D. in Environmental Engineering at University of Technology Sydney, Australia. His dissertation is focused on development of high performance thin film composite membranes for osmotic power generation. Ralph is currently working as a postdoctoral researcher in the Center for Membrane and Film Technology at Kobe University, Japan.",
+
   resume: 'cv.pdf', // if no resume, the button will not show up
 };
 
-// PROJECTS DATA
+// Paper DATA
 export const projectsData = [
-  {
-    id: uuidv1(),
-    img: 'project1.jpg',
-    title: 'BurgerMate',
-    info: 'A web app which is used to order customized burgers, requiring sign-in',
-    info2: 'ReactJS, Firebase',
-    url: 'https://react-burgermate.web.app/',
-    repo: 'https://github.com/minwyy/BurgerBuilder', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project2.jpg',
-    title: "Minwei's personal site",
-    info: 'My personal site to sell myself by showcasing portfolio',
-    info2: 'ReactJS, GatsbyJS, GraphQL',
-    url: 'https://minwei.surge.sh/',
-    repo: 'https://github.com/minwyy/mysite-minwei', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project3.jpg',
-    title: "The game of hog",
-    info: 'A course project written in Python with given GUI',
-    info2: 'Python',
-    url: '',
-    repo: 'https://github.com/minwyy/cs61a/tree/master/projects/hog', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project4.jpg',
-    title: "Percolation",
-    info: 'A Java program homework used to analyse whether ground water filter through porous bedrock with given site data files',
-    info2: 'Java, IntelliJ IDEA',
-    url: '',
-    repo: 'https://github.com/minwyy/cs61b/tree/master/hw2', // if no repo, the button will not show up
-  }
+  
+
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'minwei.yao42@gmail.com',
+  email: 'ralphrolly.gonzales@student.uts.edu.au',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: uuidv1(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
+    {
+      id: uuidv1(),
+      name: 'twitter',
+      url: 'https://twitter.com/ralph_rolly',
+    },
     // {
     //   id: uuidv1(),
     //   name: 'weibo',
@@ -87,17 +54,17 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/minwei-yao-6b23bb30/',
-    },
-    {
-      id: uuidv1(),
-      name: 'github',
-      url: 'https://github.com/minwyy',
+      url: 'https://www.linkedin.com/in/ralph-rolly-gonzales-a493a4135/',
     },
     {
       id: uuidv1(),
       name: 'google scholar',
-      url: 'https://scholar.google.com.au/citations?user=55bgxuIAAAAJ&hl=en',
+      url: 'https://scholar.google.com/citations?user=Ur76JlIAAAAJ&hl=en',
+    },
+    {
+      id: uuidv1(),
+      name: '',
+      url: 'https://www.researchgate.net/profile/Ralph_Rolly_Gonzales',
     },
   ],
 };
