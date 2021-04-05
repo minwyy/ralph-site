@@ -31,42 +31,42 @@ const Link = () => {
         <Row className="align-items-center">
             <Col>
                 <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" >
+                    <p className="link-vertical" style={{position: 'relative', top: -70}} >
                         About<a className="link-vertical" href="#about">R</a>alph
                     </p>
                 </Pulse>
             </Col>
             <Col>
                 <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical">
+                    <p className="link-vertical" style={{position: 'relative', top: -105}} >
                         Rese<a className="link-vertical" href="#research">A</a>ch
                     </p>
                 </Pulse>
             </Col>
             <Col>
                 <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical">
-                        Pub<a className="link-vertical" href="#publication">L</a>ication
+                    <p className="link-vertical" style={{position: 'relative', top: 95}} >
+                        Pub<a className="link-vertical" href="#publication" >L</a>ication
                     </p>
                 </Pulse>
             </Col>
             <Col>
                 <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical">
+                    <p className="link-vertical" style={{position: 'relative', top: -80}}>
                         News<a className="link-vertical" href="#newspost">P</a>ost
                     </p>
                 </Pulse>
             </Col>
             <Col>
                 <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical">
+                    <p className="link-vertical" style={{position: 'relative', top: -80}}>
                         Teac<a className="link-vertical" href="#about">H</a>ing
                     </p>
                 </Pulse>
             </Col>
             <Col>
                 <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical">
+                    <p className="link-vertical" style={{position: 'relative', top: 160}}>
                         <a className="link-vertical" href="#gallery">G</a>allery
                     </p>
                 </Pulse>
