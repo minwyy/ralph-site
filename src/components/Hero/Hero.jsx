@@ -37,13 +37,13 @@ const Header = () => {
             </Fade>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <p className="hero-cta">
-                <a className="cta-btn cta-btn--hero" href="#about">
+                <a className="cta-btn cta-btn--hero" href="#link">
                   {cta || 'Click here to know more'}
                 </a>
               </p>
             </Fade>
           </Col>
-        <Col md={6} sm={12}>
+          <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
