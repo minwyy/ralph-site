@@ -26,42 +26,11 @@ const Projects = () => {
     }
   }, []);
 
-  const {
-    github: {
-      viewer: {
-        repositories: { edges },
-      },
-    },
-  } = useStaticQuery(
-    graphql`
-      {
-        github {
-          viewer {
-            repositories(first: 6, orderBy: { field: STARGAZERS, direction: DESC }) {
-              edges {
-                node {
-                  id
-                  name
-                  url
-                  description
-                  stargazers {
-                    totalCount
-                  }
-                  forkCount
-                }
-              }
-            }
-          }
-        }
-      }
-    `
-  );
-
   return (
-    <section id="projects">
+    <section id="research">
       <Container>
         <div className="project-wrapper">
-          <Title title="Portfolio" />
+          <Title title="RESEARCH" />
         </div>
       </Container>
       
