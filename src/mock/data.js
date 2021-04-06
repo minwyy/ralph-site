@@ -18,11 +18,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'ralph photo',
   aboutMe: 
     "Ralph Rolly Gonzales is originally from the Philippines. He received his B.S. in Chemistry from the University of the Philippines (UP) Diliman in 2011. In 2016, he completed his Masters in Environmental Engineering at Daegu University, South Korea, with funding support from the Korean Government Scholarship Program. Ralph then proceeded to complete his Ph.D. in Environmental Engineering at University of Technology Sydney, Australia. His dissertation is focused on development of high performance thin film composite membranes for osmotic power generation. Ralph is currently working as a postdoctoral researcher in the Center for Membrane and Film Technology at Kobe University, Japan.",
 
   resume: 'cv.pdf', // if no resume, the button will not show up
+  linkedin: 'https://www.linkedin.com/in/ralph-rolly-gonzales-a493a4135/',
+  twitter: 'https://twitter.com/ralph_rolly',
 };
 
 // Paper DATA

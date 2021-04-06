@@ -1,13 +1,9 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Pulse from 'react-reveal/Pulse';
-import PortfolioContext from '../../context/context';
-import AboutImg from '../Image/AboutImg';
 // require('dotenv').config();
 
 const Link = () => {
-  const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta, img } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -28,45 +24,45 @@ const Link = () => {
   return (
     <section id="link">
       <Container>
-        <Row className="align-items-center">
+        <Row>
             <Col>
-                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" style={{position: 'relative', top: -70}} >
+                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
+                    <p className="link-vertical" style={{position: 'relative', top: '-7%'}} >
                         About<a className="link-vertical" href="#about">R</a>alph
                     </p>
                 </Pulse>
             </Col>
             <Col>
-                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" style={{position: 'relative', top: -105}} >
+                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
+                    <p className="link-vertical" style={{position: 'relative', top: '0%'}} >
                         Rese<a className="link-vertical" href="#research">A</a>ch
                     </p>
                 </Pulse>
             </Col>
             <Col>
-                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" style={{position: 'relative', top: 95}} >
+                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
+                    <p className="link-vertical" style={{position: 'relative', top: '8%'}} >
                         Pub<a className="link-vertical" href="#publication" >L</a>ication
                     </p>
                 </Pulse>
             </Col>
             <Col>
-                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" style={{position: 'relative', top: -80}}>
+                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
+                    <p className="link-vertical" style={{position: 'relative', top: '0%'}}>
                         News<a className="link-vertical" href="#newspost">P</a>ost
                     </p>
                 </Pulse>
             </Col>
             <Col>
-                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" style={{position: 'relative', top: -80}}>
+                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
+                    <p className="link-vertical" style={{position: 'relative', top: '0%'}}>
                         Teac<a className="link-vertical" href="#about">H</a>ing
                     </p>
                 </Pulse>
             </Col>
             <Col>
-                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-                    <p className="link-vertical" style={{position: 'relative', top: 160}}>
+                <Pulse left={isDesktop} bottom={isMobile} duration={1000} delay={1000}>
+                    <p className="link-vertical" style={{position: 'relative', top: '32%'}}>
                         <a className="link-vertical" href="#gallery">G</a>allery
                     </p>
                 </Pulse>

@@ -16,7 +16,7 @@
     z-index: -1;
 
     .link-vertical {
-        font-size: 5.6rem;
+        font-size: 2.6rem;
         font-weight: 700;
         // margin-bottom: 3.2rem;
         // text-align: left;
@@ -24,24 +24,38 @@
         text-orientation: upright;
     
         @include respond(tab-land) {
-          font-size: 4rem;
+          font-size: 2.2rem;
         }
         @include respond(tab-port) {
-          font-size: 3.6rem;
-          text-align: center;
+          font-size: 2rem;
         }
         @include respond(phone) {
-          font-size: 3.5rem;
-          line-height: 1.5;
+          font-size: 1.8rem;
         }
         @include respond(phone-xs) {
-          font-size: 2.8rem;
+          font-size: 1.5rem;
         }
         
         a:link {
+          font-size: 6rem;
           color: $primary-color;
           background-color: transparent;
           text-decoration: none;
+
+          @include respond(tab-land) {
+            font-size: 4rem;
+          }
+          @include respond(tab-port) {
+            font-size: 3.6rem;
+            text-align: center;
+          }
+          @include respond(phone) {
+            font-size: 3.5rem;
+            line-height: 1.5;
+          }
+          @include respond(phone-xs) {
+            font-size: 2.8rem;
+          }
         }
         
         a:visited {

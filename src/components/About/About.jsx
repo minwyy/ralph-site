@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, aboutMe, resume } = about;
+  const { img, aboutMe, resume, linkedin, twitter } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -25,31 +25,55 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="ABOUT RALPH"/>
         <Row className="about-wrapper">
-          <Col md={6} sm={12}>
+          <Col md={9} sm={12}>
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+              <div className="about-wrapper__info">
+                <p className="about-wrapper__info-text">
+                  {aboutMe}
+                </p>
+              </div>
+            </Fade>
+          </Col>
+          <Col md={3} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
             </Fade>
-          </Col>
-          <Col md={6} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-              <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {aboutMe}
+            <Fade bottom duration={1000} delay={600} distance="30px">
+              <div className="about-button">
                 <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                </p>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--resume"
+                          href={resume}
+                        >
+                        CV
+                        </a>
+                </span>
+                <span className="d-flex mt-3">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--sns"
+                          href={linkedin}
+                        >
+                        Linkedin
+                        </a>
+                </span>
+                <span className="d-flex mt-3">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--sns"
+                          href={twitter}
+                        >
+                        Twitter
+                        </a>
+                </span>
               </div>
             </Fade>
           </Col>
