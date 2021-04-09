@@ -5,7 +5,7 @@
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
-  font-weight: 400;
+  font-weight: 300;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
@@ -26,10 +26,10 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
+    font-size: 5.2rem;
+    font-weight: 500;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: center;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -47,6 +47,60 @@
     }
   }
 
+  .hero-desc {
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+    text-align: center;
+
+    a:link {
+      font-size: 2.4rem;
+      font-weight: 300;
+      color: grey;
+      background-color: transparent;
+      text-decoration: none;
+
+      @include respond(tab-land) {
+        font-size: 1.5rem;
+      }
+      @include respond(tab-port) {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      @include respond(phone) {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      @include respond(phone-xs) {
+        font-size: 0.8rem;
+      }
+    }
+    
+    a:visited {
+        font-size: 2.4rem;
+        font-weight: 300;
+        color: grey;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    a:hover {
+      font-size: 2.4rem;
+      font-weight: 300;
+      color: orange;
+      background-color: transparent;
+      text-decoration: wavy
+    }
+    
+    a:active {
+      font-size: 2.4rem;
+      font-weight: 300;
+      color: $primary-color;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
+
   .hero-cta {
     display: flex;
 
@@ -55,11 +109,18 @@
     }
 
     & a {
-      font-size: 2.4rem;
-
+      font-size: 1.5rem;
       @include respond(phone) {
         font-size: 2rem;
       }
     }
+  }
+
+
+  .about-button {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;    
   }
 }

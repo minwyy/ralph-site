@@ -9,10 +9,12 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  img: 'ralph photo',
+  img: 'p1c',
   title: '',
   name: 'Ralph',
   subtitle: ", a membrane scientist and environmental chemist",
+  description1: 'I am also the guest editor of an awesome special issue on ',
+  description2: 'Click buttons below for more information and manuscript submission.',
   cta: '',
 };
 
